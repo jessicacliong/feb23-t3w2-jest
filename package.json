@@ -7,12 +7,16 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-cc": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
